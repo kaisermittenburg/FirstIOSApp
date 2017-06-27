@@ -9,6 +9,7 @@ namespace FirstIOSApp
         {
             // if you want to use a different Application Delegate class from "AppDelegate"
             // you can specify it here.
+            System.Console.WriteLine("Hello World");
             UIApplication.Main(args, null, "AppDelegate");
         }
     }
